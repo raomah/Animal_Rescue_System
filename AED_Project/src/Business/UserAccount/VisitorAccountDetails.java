@@ -12,7 +12,7 @@ import Business.WorkQueue.AllWorkQueue;
 
 /**
  *
- * @author user
+ * @author krishna
  */
 public class VisitorAccountDetails{
     private String username;
