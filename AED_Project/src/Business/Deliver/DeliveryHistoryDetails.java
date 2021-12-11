@@ -12,7 +12,7 @@ import Business.Employees.EmployeeDetails;
 
 /**
  *
- * @author Nehs
+ * @author Neha
  */
 public class DeliveryHistoryDetails {
     private Date date;

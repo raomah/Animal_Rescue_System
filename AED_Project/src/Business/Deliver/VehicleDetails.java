@@ -7,7 +7,7 @@ package Business.Deliver;
 
 /**
  *
- * @author user
+ * @author Neha
  */
 public class VehicleDetails {
     private int vehicleno;
