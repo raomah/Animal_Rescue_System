@@ -15,15 +15,18 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author user
+ * @author krishna
  */
-public class ShelterEmpRole extends AllRoles{
+public class ShelterEmpRole extends AllRoles
+{
     @Override
+    
     public JPanel createWorkArea(JPanel container, 
             EnterpriseDetails enterprise, 
             OrganisationMain organization, 
             UserAccountDetails userAccount, 
-            EcoSystem business) {
-        return new ShelterStaffWorkAreaJPanel(container, enterprise, (ShelterOrganisation)organization, userAccount, business);
+            EcoSystem business) 
+    {
+        return new ShelterStaffWorkAreaJPanel(container,  enterprise,  (ShelterOrganisation)organization,  userAccount,  business);
     }
 }

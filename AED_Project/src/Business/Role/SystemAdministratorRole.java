@@ -14,10 +14,12 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author user
+ * @author krishna
  */
-public class SystemAdministratorRole extends AllRoles {
+public class SystemAdministratorRole extends AllRoles 
+{
     @Override
+    
     public JPanel createWorkArea(JPanel container, 
             EnterpriseDetails enterprise, 
             OrganisationMain organization, 

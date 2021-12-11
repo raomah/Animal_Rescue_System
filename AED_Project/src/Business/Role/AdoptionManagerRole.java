@@ -20,6 +20,7 @@ import javax.swing.JPanel;
 public class AdoptionManagerRole extends AllRoles
 {
      @Override
+     
     public JPanel createWorkArea(JPanel container, 
             EnterpriseDetails enterprise, 
             OrganisationMain organization, 

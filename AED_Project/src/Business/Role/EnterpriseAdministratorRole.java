@@ -14,15 +14,18 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author Administrator
+ * @author krishna
  */
-public class EnterpriseAdministratorRole extends AllRoles{
+public class EnterpriseAdministratorRole extends AllRoles
+{
     @Override
+    
     public JPanel createWorkArea(JPanel container, 
             EnterpriseDetails enterprise, 
             OrganisationMain organization, 
             UserAccountDetails userAccount, 
-            EcoSystem business) {
+            EcoSystem business) 
+    {
         return new AdminWorkAreaJPanel(container, enterprise);
     }
 

@@ -15,9 +15,10 @@ import javax.swing.JPanel;
 
     /**
  *
- * @author user
+ * @author krishna
  */
-public class VetAssistantRole extends AllRoles {
+public class VetAssistantRole extends AllRoles 
+{
     public JPanel createWorkArea(JPanel container, 
             EnterpriseDetails enterprise, 
             OrganisationMain organization, 

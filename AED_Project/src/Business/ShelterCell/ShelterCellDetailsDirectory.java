@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author user
+ * @author krishna
  */
 public class ShelterCellDetailsDirectory {
     private ArrayList<ShelterCellDetails> shelterCellList;

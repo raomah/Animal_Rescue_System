@@ -9,12 +9,12 @@ import Business.Animals.AnimalDetails;
 
 /**
  *
- * @author user
+ * @author krishna
  */
 public class ShelterCellDetails {
     private int cellno;
-    private String shelterlocation;
     private String shelterstatus;
+    private String shelterlocation;
     private AnimalDetails animal;
     
     public static String OCCUPIED_STATUS = "OCCUPIED";

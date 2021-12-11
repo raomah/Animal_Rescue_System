@@ -21,6 +21,7 @@ import javax.swing.JPanel;
 public class PharmacistRole extends AllRoles
 {
     @Override
+    
     public JPanel createWorkArea(JPanel container, 
             EnterpriseDetails enterprise, 
             OrganisationMain organization, 

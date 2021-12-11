@@ -16,15 +16,18 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author user
+ * @author krishna
  */
-public class ReceptionistRole extends AllRoles{
+public class ReceptionistRole extends AllRoles
+{
      @Override
+     
     public JPanel createWorkArea(JPanel container, 
             EnterpriseDetails enterprise, 
             OrganisationMain organization, 
             UserAccountDetails userAccount, 
-            EcoSystem business) {
+            EcoSystem business) 
+    {
         return new ReceptionistWorkAreaJPanel(container, (RescueCenterEntDetails)enterprise, (CenterRegistrationOrganisation)organization, userAccount);
     }
 }
