@@ -10,7 +10,7 @@ import Business.Date.Date;
 
 /**
  *
- * @author user
+ * @author Neha
  */
 public class AdoptionOffered {
     private AnimalDetails animal;

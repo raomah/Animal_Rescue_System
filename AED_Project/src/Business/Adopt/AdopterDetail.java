@@ -7,7 +7,7 @@ package Business.Adopt;
 
 /**
  *
- * @author user
+ * @author Neha 
  */
 public class AdopterDetail {
     private String ssnnumber;

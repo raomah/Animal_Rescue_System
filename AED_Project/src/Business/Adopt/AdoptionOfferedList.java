@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author user
+ * @author Neha
  */
 public class AdoptionOfferedList {
    private ArrayList<AdoptionOffered> adoptionOfferingList;

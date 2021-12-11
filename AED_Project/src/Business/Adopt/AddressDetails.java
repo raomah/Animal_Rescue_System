@@ -7,7 +7,7 @@ package Business.Adopt;
 
 /**
  *
- * @author user
+ * @author Neha
  */
 public class AddressDetails {
     private String StreetName;
