@@ -11,7 +11,7 @@ import Business.Treatment.TreatmentRecordDetailsDirectory;
 
 /**
  *
- * @author user
+ * @author Neha
  */
 public abstract class AnimalDetails {
     private int animalid;
