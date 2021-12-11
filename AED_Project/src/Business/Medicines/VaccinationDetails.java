@@ -7,7 +7,7 @@ package Business.Medicines;
 
 /**
  *
- * @author user
+ * @author raomah
  */
 public class VaccinationDetails extends MedicineDetails {
     

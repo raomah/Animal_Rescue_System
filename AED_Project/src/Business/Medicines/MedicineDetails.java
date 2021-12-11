@@ -7,7 +7,7 @@ package Business.Medicines;
 
 /**
  *
- * @author user
+ * @author raomah
  */
 public abstract class MedicineDetails {
     private String medname;

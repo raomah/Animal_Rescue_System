@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author user
+ * @author raomah
  */
 public class DeliveryOrganisation extends OrganisationMain{
     private VehicleDirectoryDetails vehicleDirectory;

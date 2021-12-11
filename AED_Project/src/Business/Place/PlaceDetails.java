@@ -9,7 +9,7 @@ import Business.Employees.EmployeeDetails;
 
 /**
  *
- * @author user
+ * @author raomah
  */
 public class PlaceDetails {
     private String roomno;

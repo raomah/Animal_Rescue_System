@@ -18,7 +18,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author user
+ * @author raomah
  */
 public class RescueCenterEntDetails extends EnterpriseDetails{
     private PlaceDetailsDirectory roomDirectory;

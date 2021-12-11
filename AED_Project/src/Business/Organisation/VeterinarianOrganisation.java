@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author user
+ * @author raomah
  */
 public class VeterinarianOrganisation extends OrganisationMain{
     

@@ -15,7 +15,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author user
+ * @author raomah
  */
 public class AdoptionOrganisation extends OrganisationMain{
     private AdoptionRecordDirectory adoptionRecordDirectory;

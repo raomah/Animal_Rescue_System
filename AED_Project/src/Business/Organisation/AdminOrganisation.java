@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author user
+ * @author raomah
  */
 public class AdminOrganisation extends OrganisationMain{
     public AdminOrganisation() {

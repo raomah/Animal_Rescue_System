@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author user
+ * @author raomah
  */
 public abstract class OrganisationMain {
     private String orgname;

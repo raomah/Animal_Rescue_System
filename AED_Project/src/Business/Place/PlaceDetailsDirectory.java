@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author user
+ * @author raomah
  */
 public class PlaceDetailsDirectory {
     private ArrayList<PlaceDetails> roomList;

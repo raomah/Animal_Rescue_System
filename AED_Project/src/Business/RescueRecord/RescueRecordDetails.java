@@ -12,7 +12,7 @@ import Business.Place.PlaceDetails;
 
 /**
  *
- * @author user
+ * @author raomah
  */
 public class RescueRecordDetails {
     private Date date;

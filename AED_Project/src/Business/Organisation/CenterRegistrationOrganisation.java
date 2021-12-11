@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author user
+ * @author raomah
  */
 public class CenterRegistrationOrganisation extends OrganisationMain {
     private RescueRecordDetailsDirectory rescueRecordDirectory;
