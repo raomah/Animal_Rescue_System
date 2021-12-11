@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author user
+ * @author krishna
  */
 public class VisitorAccountDetailsDirectory{
     private ArrayList<VisitorAccountDetails> visitorAccountList;
