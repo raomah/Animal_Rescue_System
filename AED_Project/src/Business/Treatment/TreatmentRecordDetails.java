@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author user
+ * @author krishna
  */
 public class TreatmentRecordDetails {
     private Date date;
