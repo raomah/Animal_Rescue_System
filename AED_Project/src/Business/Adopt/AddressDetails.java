@@ -7,35 +7,35 @@ package Business.Adopt;
 
 /**
  *
- * @author raomah
+ * @author user
  */
 public class AddressDetails {
-    private String Street;
-    private String city;
-    private String State;
+    private String StreetName;
+    private String cityName;
+    private String StateName;
 
-    public String getStreet() {
-        return Street;
+    public String getStreetName() {
+        return StreetName;
     }
 
-    public void setStreet(String Street) {
-        this.Street = Street;
+    public void setStreetName(String StreetName) {
+        this.StreetName = StreetName;
     }
 
-    public String getCity() {
-        return city;
+    public String getCityName() {
+        return cityName;
     }
 
-    public void setCity(String city) {
-        this.city = city;
+    public void setCityName(String cityName) {
+        this.cityName = cityName;
     }
 
-    public String getState() {
-        return State;
+    public String getStateName() {
+        return StateName;
     }
 
-    public void setState(String State) {
-        this.State = State;
+    public void setStateName(String StateName) {
+        this.StateName = StateName;
     }
     
     
