@@ -11,6 +11,7 @@ import java.util.ArrayList;
  *
  * @author Neha
  */
+
 public class AdoptionRecordDirectory {
     private ArrayList<AdoptRecord> adoptionRecordList;
 
@@ -27,11 +28,15 @@ public class AdoptionRecordDirectory {
     }
     
     public void addAdoptionRecord(AdoptRecord r) {
+        
         adoptionRecordList.add(r);
+        
     }
     
     public void removeAdoptionRecord(AdoptRecord r) {
+        
         adoptionRecordList.remove(r);
+        
     }
     
 }
