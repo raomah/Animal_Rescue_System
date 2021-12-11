@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author user
+ * @author Neha
  */
 public class AnimalStatusDetailsDirectory {
     private ArrayList<AnimalStatusDetails> statusList;

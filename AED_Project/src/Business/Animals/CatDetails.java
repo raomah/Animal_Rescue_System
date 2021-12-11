@@ -7,7 +7,7 @@ package Business.Animals;
 
 /**
  *
- * @author user
+ * @author Neha
  */
 public class CatDetails extends AnimalDetails{
     private String catbreed;
