@@ -11,7 +11,7 @@ import Business.WorkQueue.AllWorkQueue;
 
 /**
  *
- * @author user
+ * @author krishna
  */
 public class UserAccountDetails {
     private String username;
