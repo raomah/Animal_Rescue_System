@@ -17,11 +17,11 @@ public class ShelterCellDetailsDirectory {
     public ShelterCellDetailsDirectory() {
         shelterCellList = new ArrayList<ShelterCellDetails>(); 
     }
-
+    
     public ArrayList<ShelterCellDetails> getShelterCellList() {
         return shelterCellList;
     }
-
+    
     public void setShelterCellList(ArrayList<ShelterCellDetails> shelterCellList) {
         this.shelterCellList = shelterCellList;
     }
