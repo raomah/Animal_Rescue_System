@@ -106,6 +106,8 @@ public class ManageNetworkJPanel extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
+        tblNetwork.setSelectionBackground(new java.awt.Color(255, 204, 204));
+        tblNetwork.setSelectionForeground(new java.awt.Color(0, 0, 0));
         jScrollPane1.setViewportView(tblNetwork);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);

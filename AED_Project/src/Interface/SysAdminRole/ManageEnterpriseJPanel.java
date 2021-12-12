@@ -119,6 +119,8 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
                 return canEdit [columnIndex];
             }
         });
+        tblEnterprise.setSelectionBackground(new java.awt.Color(255, 204, 204));
+        tblEnterprise.setSelectionForeground(new java.awt.Color(0, 0, 0));
         jScrollPane1.setViewportView(tblEnterprise);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
