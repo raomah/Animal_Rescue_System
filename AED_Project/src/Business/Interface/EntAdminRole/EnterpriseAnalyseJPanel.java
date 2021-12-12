@@ -255,7 +255,7 @@ public class EnterpriseAnalyseJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 290, 409, 85));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/How-to-Start-an-Animal-Rescue-featured-604x366.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/How-to-Start-an-Animal-Rescue-featured-604x366.png"))); // NOI18N
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 600, 440));
     }// </editor-fold>//GEN-END:initComponents
 
