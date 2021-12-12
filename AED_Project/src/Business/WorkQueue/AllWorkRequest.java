@@ -13,62 +13,76 @@ import Business.UserAccount.UserAccountDetails;
  * @author user
  */
 public abstract class AllWorkRequest {
-    private String wremessage;
+    
     private UserAccountDetails wresender;
     private UserAccountDetails wrereceiver;
+    private String wremessage;
     private String wrestatus;
     private Date wrerequestDate;
     private Date wreresolveDate;
     
-    public AllWorkRequest(){
+    public AllWorkRequest()
+    {
         wrerequestDate = new Date();
     }
 
-    public String getWremessage() {
+    public String getWremessage() 
+    {
         return wremessage;
     }
 
-    public void setWremessage(String wremessage) {
+    public void setWremessage(String wremessage) 
+    {
         this.wremessage = wremessage;
     }
 
-    public UserAccountDetails getWresender() {
+    public UserAccountDetails getWresender() 
+    {
         return wresender;
     }
 
-    public void setWresender(UserAccountDetails wresender) {
+    public void setWresender(UserAccountDetails wresender) 
+    {
         this.wresender = wresender;
     }
 
-    public UserAccountDetails getWrereceiver() {
+    public UserAccountDetails getWrereceiver() 
+    {
         return wrereceiver;
     }
 
-    public void setWrereceiver(UserAccountDetails wrereceiver) {
+    public void setWrereceiver(UserAccountDetails wrereceiver) 
+    {
         this.wrereceiver = wrereceiver;
     }
 
-    public String getWrestatus() {
+    public String getWrestatus() 
+    {
         return wrestatus;
     }
 
-    public void setWrestatus(String wrestatus) {
+    public void setWrestatus(String wrestatus) 
+    {
         this.wrestatus = wrestatus;
     }
 
-    public Date getWrerequestDate() {
+    public Date getWrerequestDate() 
+    {
         return wrerequestDate;
     }
 
-    public void setWrerequestDate(Date wrerequestDate) {
+    public void setWrerequestDate(Date wrerequestDate) 
+    {
         this.wrerequestDate = wrerequestDate;
     }
 
-    public Date getWreresolveDate() {
+    public Date getWreresolveDate() 
+    {
         return wreresolveDate;
     }
 
-    public void setWreresolveDate(Date wreresolveDate) {
+    public void setWreresolveDate(Date wreresolveDate) 
+    {
         this.wreresolveDate = wreresolveDate;
     }
 }
