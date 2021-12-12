@@ -11,25 +11,30 @@ import Business.Animals.AnimalDetails;
 
 /**
  *
- * @author user
+ * @author krishna
  */
 public class AdoptionVisitWre extends AllWorkRequest {
-    private AdoptRecord adoptiondetails;
+    
     private String result;
+    private AdoptRecord adoptiondetails;
 
-    public AdoptRecord getAdoptiondetails() {
+    public AdoptRecord getAdoptiondetails() 
+    {
         return adoptiondetails;
     }
 
-    public void setAdoptiondetails(AdoptRecord adoptiondetails) {
+    public void setAdoptiondetails(AdoptRecord adoptiondetails) 
+    {
         this.adoptiondetails = adoptiondetails;
     }
 
-    public String getResult() {
+    public String getResult() 
+    {
         return result;
     }
 
-    public void setResult(String result) {
+    public void setResult(String result) 
+    {
         this.result = result;
     }
     

@@ -14,30 +14,37 @@ import java.util.ArrayList;
  * @author user
  */
 public class PharmacyWre extends AllWorkRequest {
-    private ArrayList<PharmacyUnitWre> medicineList;
-    private boolean assigned;
     
-    public PharmacyWre() {
+    private boolean assigned;
+    private ArrayList<PharmacyUnitWre> medicineList;
+    
+    public PharmacyWre() 
+    {
         medicineList = new ArrayList<PharmacyUnitWre>();
     }
 
-    public boolean isAssigned() {
+    public boolean isAssigned() 
+    {
         return assigned;
     }
 
-    public void setAssigned(boolean assigned) {
+    public void setAssigned(boolean assigned) 
+    {
         this.assigned = assigned;
     }
     
-    public ArrayList<PharmacyUnitWre> getMedicineList() {
+    public ArrayList<PharmacyUnitWre> getMedicineList() 
+    {
         return medicineList;
     }
 
-    public void setMedicineList(ArrayList<PharmacyUnitWre> medicineList) {
+    public void setMedicineList(ArrayList<PharmacyUnitWre> medicineList) 
+    {
         this.medicineList = medicineList;
     }
     
-    public void addRequest(PharmacyUnitWre u) {
+    public void addRequest(PharmacyUnitWre u) 
+    {
         medicineList.add(u);
     }
 

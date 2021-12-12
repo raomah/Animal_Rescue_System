@@ -71,12 +71,16 @@ public class ShelterStaffWorkAreaJPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
+        lblshelterstaffworkarea = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         tblShelter = new javax.swing.JTable();
+        jLabel1 = new javax.swing.JLabel();
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel1.setText("Shelter Staff WorkArea");
+        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        lblshelterstaffworkarea.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        lblshelterstaffworkarea.setText("Shelter Staff WorkArea");
+        add(lblshelterstaffworkarea, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 70, -1, 30));
 
         tblShelter.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -96,34 +100,17 @@ public class ShelterStaffWorkAreaJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblShelter);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
-        this.setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(19, 19, 19)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 537, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jLabel1))
-                .addContainerGap(34, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel1)
-                .addGap(18, 18, 18)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 237, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(141, Short.MAX_VALUE))
-        );
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 230, 537, 120));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/WhatsApp Image 2021-12-12 at 2.10.41 AM.jpeg"))); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 590, 430));
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JLabel lblshelterstaffworkarea;
     private javax.swing.JTable tblShelter;
     // End of variables declaration//GEN-END:variables
 }

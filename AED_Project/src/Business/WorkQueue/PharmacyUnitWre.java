@@ -9,25 +9,30 @@ import Business.Medicines.MedicineDetails;
 
 /**
  *
- * @author user
+ * @author krishna
  */
 public class PharmacyUnitWre {
-    private int quantity;
+    
     private MedicineDetails medicine;
+    private int quantity;
 
-    public int getQuantity() {
+    public int getQuantity() 
+    {
         return quantity;
     }
 
-    public void setQuantity(int quantity) {
+    public void setQuantity(int quantity) 
+    {
         this.quantity = quantity;
     }
 
-    public MedicineDetails getMedicine() {
+    public MedicineDetails getMedicine() 
+    {
         return medicine;
     }
 
-    public void setMedicine(MedicineDetails medicine) {
+    public void setMedicine(MedicineDetails medicine) 
+    {
         this.medicine = medicine;
     }
     

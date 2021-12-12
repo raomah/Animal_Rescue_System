@@ -14,23 +14,28 @@ import java.util.ArrayList;
 public class TreatmentRecordDetailsDirectory {
     private ArrayList<TreatmentRecordDetails> treatmentRecordList;
 
-    public TreatmentRecordDetailsDirectory() {
+    public TreatmentRecordDetailsDirectory() 
+    {
         treatmentRecordList = new ArrayList<TreatmentRecordDetails>(); 
     }
 
-    public ArrayList<TreatmentRecordDetails> getTreatmentRecordList() {
+    public ArrayList<TreatmentRecordDetails> getTreatmentRecordList() 
+    {
         return treatmentRecordList;
     }
 
-    public void setTreatmentRecordList(ArrayList<TreatmentRecordDetails> treatmentRecordDir) {
+    public void setTreatmentRecordList(ArrayList<TreatmentRecordDetails> treatmentRecordDir) 
+    {
         this.treatmentRecordList = treatmentRecordDir;
     }
     
-    public void addTreatmentRecord(TreatmentRecordDetails r) {
+    public void addTreatmentRecord(TreatmentRecordDetails r) 
+    {
         treatmentRecordList.add(r);
     }
     
-    public void removeTreatmentRecord(TreatmentRecordDetails r) {
+    public void removeTreatmentRecord(TreatmentRecordDetails r) 
+    {
         treatmentRecordList.remove(r);
     }
     

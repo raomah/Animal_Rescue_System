@@ -17,29 +17,36 @@ import Business.WorkQueue.AllWorkQueue;
 public class VisitorAccountDetails{
     private String username;
     private String password;
+    
     private AdopterDetail adoptorname;
 
-    public String getUsername() {
+    public String getUsername() 
+    {
         return username;
     }
 
-    public void setUsername(String username) {
+    public void setUsername(String username) 
+    {
         this.username = username;
     }
 
-    public String getPassword() {
+    public String getPassword() 
+    {
         return password;
     }
 
-    public void setPassword(String password) {
+    public void setPassword(String password) 
+    {
         this.password = password;
     }
 
-    public AdopterDetail getAdoptorname() {
+    public AdopterDetail getAdoptorname() 
+    {
         return adoptorname;
     }
 
-    public void setAdoptorname(AdopterDetail adoptorname) {
+    public void setAdoptorname(AdopterDetail adoptorname) 
+    {
         this.adoptorname = adoptorname;
     }
     

@@ -17,46 +17,56 @@ public class ShelterCellDetails {
     private String shelterlocation;
     private AnimalDetails animal;
     
+    private static int count = 0;
     public static String OCCUPIED_STATUS = "OCCUPIED";
     public static String AVAIL_STATUS = "AVAIL";
-    private static int count = 0;
     
-    public ShelterCellDetails() {
+    
+    public int getCellno() 
+    {
+        return cellno;
+    }
+    
+    public ShelterCellDetails() 
+    {
         count++;
         cellno = count;
         shelterstatus = AVAIL_STATUS;
     }
 
-    public int getCellno() {
-        return cellno;
-    }
-
-    public String getShelterlocation() {
+    public String getShelterlocation() 
+    {
         return shelterlocation;
     }
 
-    public void setShelterlocation(String shelterlocation) {
+    public void setShelterlocation(String shelterlocation) 
+    {
         this.shelterlocation = shelterlocation;
     }
 
-    public String getShelterstatus() {
+    public String getShelterstatus() 
+    {
         return shelterstatus;
     }
 
-    public void setShelterstatus(String shelterstatus) {
+    public void setShelterstatus(String shelterstatus) 
+    {
         this.shelterstatus = shelterstatus;
     }
 
-    public AnimalDetails getAnimal() {
+    public AnimalDetails getAnimal() 
+    {
         return animal;
     }
-
-    public void setAnimal(AnimalDetails animal) {
+    
+    public void setAnimal(AnimalDetails animal) 
+    {
         this.animal = animal;
     }
     
     @Override
-    public String toString() {
+    public String toString() 
+    {
         return String.valueOf(cellno);
     }
 }

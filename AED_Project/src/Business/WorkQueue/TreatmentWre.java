@@ -5,12 +5,14 @@
  */
 package Business.WorkQueue;
 
+
 import Business.Animals.AnimalDetails;
 
 /**
  *
- * @author user
+ * @author krishna
  */
-public class TreatmentWre extends AllWorkRequest{
+public class TreatmentWre extends AllWorkRequest
+{
     private AnimalDetails animal;
 }

@@ -9,25 +9,30 @@ import Business.Animals.AnimalDetails;
 
 /**
  *
- * @author user
+ * @author krishna
  */
 public class DailyExaminationWre extends AllWorkRequest {
-    private AnimalDetails animal;
+    
     private String result;
+    private AnimalDetails animal;
 
-    public AnimalDetails getAnimal() {
+    public AnimalDetails getAnimal() 
+    {
         return animal;
     }
 
-    public void setAnimal(AnimalDetails animal) {
+    public void setAnimal(AnimalDetails animal) 
+    {
         this.animal = animal;
     }
 
-    public String getResult() {
+    public String getResult() 
+    {
         return result;
     }
 
-    public void setResult(String result) {
+    public void setResult(String result) 
+    {
         this.result = result;
     }
 }

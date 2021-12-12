@@ -19,52 +19,63 @@ public class TreatmentRecordDetails {
     private Date date;
     private AnimalDetails animal;
     private PlaceDetails room;
-    private boolean reviewed;
     private ArrayList<MedicineDetails> medicineList;
+    private boolean reviewed;
 
-    public TreatmentRecordDetails() {
+    public TreatmentRecordDetails() 
+    {
         reviewed = false;
         date = new Date();
         medicineList = new ArrayList<MedicineDetails>();
     }
 
-    public Date getDate() {
+    public Date getDate() 
+    {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(Date date) 
+    {
         this.date = date;
     }
 
-    public AnimalDetails getAnimal() {
+    public AnimalDetails getAnimal() 
+    {
         return animal;
     }
 
-    public void setAnimal(AnimalDetails animal) {
+    public void setAnimal(AnimalDetails animal) 
+    {
         this.animal = animal;
     }
 
-    public PlaceDetails getRoom() {
+    public PlaceDetails getRoom() 
+    {
         return room;
     }
 
-    public void setRoom(PlaceDetails room) {
+    public void setRoom(PlaceDetails room) 
+    {
         this.room = room;
     }
 
-    public boolean isReviewed() {
+    public boolean isReviewed() 
+    {
         return reviewed;
     }
 
-    public void setReviewed(boolean reviewed) {
+    public void setReviewed(boolean reviewed) 
+    {
         this.reviewed = reviewed;
     }
 
-    public ArrayList<MedicineDetails> getMedicineList() {
+    public ArrayList<MedicineDetails> getMedicineList() 
+    {
         return medicineList;
     }
 
-    public void setMedicineList(ArrayList<MedicineDetails> medicineList) {
+    public void setMedicineList(ArrayList<MedicineDetails> medicineList) 
+    {
         this.medicineList = medicineList;
     }
     

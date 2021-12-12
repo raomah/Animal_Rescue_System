@@ -9,16 +9,18 @@ import java.util.ArrayList;
 
 /**
  *
- * @author user
+ * @author krishna
  */
 public class AllWorkQueue {
     private ArrayList<AllWorkRequest> workRequestList;
 
-    public AllWorkQueue() {
+    public AllWorkQueue() 
+    {
         workRequestList = new ArrayList();
     }
 
-    public ArrayList<AllWorkRequest> getWorkRequestList() {
+    public ArrayList<AllWorkRequest> getWorkRequestList() 
+    {
         return workRequestList;
     }
 }

@@ -6,38 +6,46 @@
 package Business.WorkQueue;
 
 import Business.Adopt.AdopterDetail;
+
 import Business.Animals.AnimalDetails;
 
 /**
  *
- * @author user
+ * @author krishna
  */
-public class ReturnVisitWre extends AllWorkRequest {
-    private AdopterDetail adoptorname;
+public class ReturnVisitWre extends AllWorkRequest 
+{
     private AnimalDetails animal;
+    private AdopterDetail adoptorname;
     private String result;
 
-    public AdopterDetail getAdoptorname() {
+    public AdopterDetail getAdoptorname() 
+    {
         return adoptorname;
     }
 
-    public void setAdoptorname(AdopterDetail adoptorname) {
+    public void setAdoptorname(AdopterDetail adoptorname) 
+    {
         this.adoptorname = adoptorname;
     }
 
-    public AnimalDetails getAnimal() {
+    public AnimalDetails getAnimal() 
+    {
         return animal;
     }
 
-    public void setAnimal(AnimalDetails animal) {
+    public void setAnimal(AnimalDetails animal) 
+    {
         this.animal = animal;
     }
 
-    public String getResult() {
+    public String getResult() 
+    {
         return result;
     }
 
-    public void setResult(String result) {
+    public void setResult(String result) 
+    {
         this.result = result;
     }
 }

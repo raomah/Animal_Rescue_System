@@ -16,52 +16,63 @@ import Business.WorkQueue.AllWorkQueue;
 public class UserAccountDetails {
     private String username;
     private String pass;
-    private EmployeeDetails employee;
     private AllRoles role;
     private AllWorkQueue workQueue;
+    private EmployeeDetails employee;
 
-    public UserAccountDetails() {
+    public UserAccountDetails() 
+    {
         workQueue = new AllWorkQueue();
     }
     
-    public String getUsername() {
+    public String getUsername() 
+    {
         return username;
     }
 
-    public void setUsername(String username) {
+    public void setUsername(String username) 
+    {
         this.username = username;
     }
 
-    public String getPass() {
+    public String getPass() 
+    {
         return pass;
     }
 
-    public void setPass(String pass) {
+    public void setPass(String pass) 
+    {
         this.pass = pass;
     }
 
-    public AllRoles getRole() {
+    public AllRoles getRole() 
+    {
         return role;
     }
 
-    public void setEmployee(EmployeeDetails employee) {
+    public void setEmployee(EmployeeDetails employee) 
+    {
         this.employee = employee;
     }
 
-    public void setRole(AllRoles role) {
+    public void setRole(AllRoles role) 
+    {
         this.role = role;
     }
 
-    public EmployeeDetails getEmployee() {
+    public EmployeeDetails getEmployee() 
+    {
         return employee;
     }
 
-    public AllWorkQueue getWorkQueue() {
+    public AllWorkQueue getWorkQueue() 
+    {
         return workQueue;
     }
     
     @Override
-    public String toString() {
+    public String toString() 
+    {
         return username;
     }
 }

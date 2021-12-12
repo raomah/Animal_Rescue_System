@@ -9,16 +9,19 @@ import java.util.ArrayList;
 
 /**
  *
- * @author user
+ * @author krishna
  */
-public class PharmacyWQ {
+public class PharmacyWQ 
+{
     private ArrayList<PharmacyWre> workRequestList;
 
-    public PharmacyWQ() {
+    public PharmacyWQ() 
+    {
         workRequestList = new ArrayList<PharmacyWre>();
     }
 
-    public ArrayList<PharmacyWre> getWorkRequestList() {
+    public ArrayList<PharmacyWre> getWorkRequestList() 
+    {
         return workRequestList;
     }
 }

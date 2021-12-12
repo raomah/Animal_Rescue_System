@@ -18,15 +18,18 @@ import java.util.ArrayList;
 public class VisitorAccountDetailsDirectory{
     private ArrayList<VisitorAccountDetails> visitorAccountList;
 
-    public VisitorAccountDetailsDirectory() {
+    public VisitorAccountDetailsDirectory() 
+    {
         visitorAccountList = new ArrayList();
     }
 
-    public ArrayList<VisitorAccountDetails> getVisitorAccountList() {
+    public ArrayList<VisitorAccountDetails> getVisitorAccountList() 
+    {
         return visitorAccountList;
     }
     
-    public VisitorAccountDetails authenticateUser(String username, String password){
+    public VisitorAccountDetails authenticateUser(String username, String password)
+    {
         for (VisitorAccountDetails va : visitorAccountList)
             if (va.getUsername().equals(username) && va.getPassword().equals(password)){
                 return va;
@@ -34,7 +37,8 @@ public class VisitorAccountDetailsDirectory{
         return null;
     }
     
-    public VisitorAccountDetails createUserAccount(String username, String password, AdopterDetail adoptor){
+    public VisitorAccountDetails createUserAccount(String username, String password, AdopterDetail adoptor)
+    {
         VisitorAccountDetails visitorAccount = new VisitorAccountDetails();
         visitorAccount.setUsername(username);
         visitorAccount.setPassword(password);
@@ -43,7 +47,8 @@ public class VisitorAccountDetailsDirectory{
         return visitorAccount;
     }
     
-    public boolean checkIfUsernameIsUnique(String username){
+    public boolean checkIfUsernameIsUnique(String username)
+    {
         for (VisitorAccountDetails va : visitorAccountList){
             if (va.getUsername().equals(username))
                 return false;
