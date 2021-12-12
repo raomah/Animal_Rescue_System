@@ -159,7 +159,7 @@ public class ReviewAnimalJPanel extends javax.swing.JPanel {
 
         lblreviewani.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
         lblreviewani.setForeground(new java.awt.Color(255, 51, 51));
-        lblreviewani.setText("Review Animal");
+        lblreviewani.setText("REVIEW ANIMAL");
 
         btnFinish.setForeground(new java.awt.Color(255, 0, 51));
         btnFinish.setText("Finish");

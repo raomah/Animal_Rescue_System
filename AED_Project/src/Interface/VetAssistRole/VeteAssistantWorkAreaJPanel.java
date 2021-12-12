@@ -93,10 +93,10 @@ public class VeteAssistantWorkAreaJPanel extends javax.swing.JPanel {
 
         lblveterassistant.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         lblveterassistant.setForeground(new java.awt.Color(255, 51, 51));
-        lblveterassistant.setText("Veterinarian Assistant");
+        lblveterassistant.setText("VETERINARIAN ASSISTANT");
 
         btnAssign.setForeground(new java.awt.Color(255, 0, 51));
-        btnAssign.setText("Assign To Me");
+        btnAssign.setText("Self Assign");
         btnAssign.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAssignActionPerformed(evt);
@@ -155,7 +155,7 @@ public class VeteAssistantWorkAreaJPanel extends javax.swing.JPanel {
                         .addGap(232, 232, 232))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(lblveterassistant)
-                        .addGap(165, 165, 165))))
+                        .addGap(127, 127, 127))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

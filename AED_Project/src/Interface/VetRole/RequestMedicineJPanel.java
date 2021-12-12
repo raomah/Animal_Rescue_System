@@ -124,7 +124,7 @@ public class RequestMedicineJPanel extends javax.swing.JPanel {
 
         jLabel1.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 51, 51));
-        jLabel1.setText("Send Request To Pharmacy");
+        jLabel1.setText("SEND REQUEST TO PHARMACY");
 
         btnBack.setForeground(new java.awt.Color(255, 51, 51));
         btnBack.setText(" Back");
@@ -270,7 +270,7 @@ public class RequestMedicineJPanel extends javax.swing.JPanel {
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(90, 90, 90)
+                        .addGap(74, 74, 74)
                         .addComponent(jLabel1))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(71, 71, 71)
