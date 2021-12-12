@@ -25,7 +25,7 @@
               <EmptySpace max="-2" attributes="0"/>
               <Component id="backJButton" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
-              <Component id="lblanalyzeadoptions" min="-2" max="-2" attributes="0"/>
+              <Component id="lblanalysisani" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
           </Group>
           <Group type="102" alignment="0" attributes="0">
@@ -45,7 +45,7 @@
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="backJButton" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="lblanalyzeadoptions" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblanalysisani" alignment="0" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
@@ -70,7 +70,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="backJButtonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblanalyzeadoptions">
+    <Component class="javax.swing.JLabel" name="lblanalysisani">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>

@@ -207,7 +207,7 @@ public class AnalyseAnimalsJPanel extends javax.swing.JPanel {
     private void initComponents() {
 
         backJButton = new javax.swing.JButton();
-        lblanalyzeadoptions = new javax.swing.JLabel();
+        lblanalysisani = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         lblTotal = new javax.swing.JLabel();
@@ -228,10 +228,10 @@ public class AnalyseAnimalsJPanel extends javax.swing.JPanel {
             }
         });
 
-        lblanalyzeadoptions.setBackground(new java.awt.Color(255, 255, 255));
-        lblanalyzeadoptions.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
-        lblanalyzeadoptions.setForeground(new java.awt.Color(255, 51, 51));
-        lblanalyzeadoptions.setText("ANALYSIS OF ANIMALS");
+        lblanalysisani.setBackground(new java.awt.Color(255, 255, 255));
+        lblanalysisani.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
+        lblanalysisani.setForeground(new java.awt.Color(255, 51, 51));
+        lblanalysisani.setText("ANALYSIS OF ANIMALS");
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -353,7 +353,7 @@ public class AnalyseAnimalsJPanel extends javax.swing.JPanel {
                 .addContainerGap()
                 .addComponent(backJButton)
                 .addGap(63, 63, 63)
-                .addComponent(lblanalyzeadoptions)
+                .addComponent(lblanalysisani)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addGap(22, 22, 22)
@@ -369,7 +369,7 @@ public class AnalyseAnimalsJPanel extends javax.swing.JPanel {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(backJButton)
-                    .addComponent(lblanalyzeadoptions))
+                    .addComponent(lblanalysisani))
                 .addGap(18, 18, 18)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
@@ -396,7 +396,7 @@ public class AnalyseAnimalsJPanel extends javax.swing.JPanel {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JLabel lblTotal;
-    private javax.swing.JLabel lblanalyzeadoptions;
+    private javax.swing.JLabel lblanalysisani;
     private javax.swing.JTable tblRatios;
     private javax.swing.JTable tblTypes;
     // End of variables declaration//GEN-END:variables

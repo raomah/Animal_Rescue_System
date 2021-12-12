@@ -38,7 +38,7 @@ public class AnalysisJPanel extends javax.swing.JPanel {
     private void initComponents() {
 
         backJButton1 = new javax.swing.JButton();
-        lblanalysisadoptions = new javax.swing.JLabel();
+        lblanalysisfig = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         btnAnimals = new javax.swing.JButton();
         btnAdoptions = new javax.swing.JButton();
@@ -53,10 +53,10 @@ public class AnalysisJPanel extends javax.swing.JPanel {
             }
         });
 
-        lblanalysisadoptions.setBackground(new java.awt.Color(255, 255, 255));
-        lblanalysisadoptions.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
-        lblanalysisadoptions.setForeground(new java.awt.Color(255, 51, 51));
-        lblanalysisadoptions.setText("ANALYSIS FIGURES");
+        lblanalysisfig.setBackground(new java.awt.Color(255, 255, 255));
+        lblanalysisfig.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
+        lblanalysisfig.setForeground(new java.awt.Color(255, 51, 51));
+        lblanalysisfig.setText("ANALYSIS FIGURES");
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -113,7 +113,7 @@ public class AnalysisJPanel extends javax.swing.JPanel {
                 .addContainerGap(44, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(lblanalysisadoptions)
+                .addComponent(lblanalysisfig)
                 .addGap(87, 87, 87))
         );
         layout.setVerticalGroup(
@@ -122,7 +122,7 @@ public class AnalysisJPanel extends javax.swing.JPanel {
                 .addContainerGap()
                 .addComponent(backJButton1)
                 .addGap(7, 7, 7)
-                .addComponent(lblanalysisadoptions)
+                .addComponent(lblanalysisfig)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(30, Short.MAX_VALUE))
@@ -157,6 +157,6 @@ public class AnalysisJPanel extends javax.swing.JPanel {
     private javax.swing.JButton btnAdoptions;
     private javax.swing.JButton btnAnimals;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JLabel lblanalysisadoptions;
+    private javax.swing.JLabel lblanalysisfig;
     // End of variables declaration//GEN-END:variables
 }
