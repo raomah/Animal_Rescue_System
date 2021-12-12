@@ -45,14 +45,14 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
         btnCage = new javax.swing.JButton();
         btnShelter = new javax.swing.JButton();
         btnAnalyse = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        lblEnterprise.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        lblEnterprise.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
+        lblEnterprise.setForeground(new java.awt.Color(255, 41, 41));
         lblEnterprise.setText("Enterprise Admin Work Area");
-        add(lblEnterprise, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+        add(lblEnterprise, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 10, -1, -1));
 
         btnUser.setFont(new java.awt.Font("Calibri", 0, 12)); // NOI18N
         btnUser.setText("Manage User");
@@ -83,7 +83,7 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
 
         lblEnter.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         lblEnter.setText("Enterprise :");
-        add(lblEnter, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 70, 120, 30));
+        add(lblEnter, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 60, 120, 30));
 
         lblValue.setFont(new java.awt.Font("宋体", 0, 18)); // NOI18N
         lblValue.setText("<value>");
@@ -133,9 +133,6 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
         add(btnAnalyse, new org.netbeans.lib.awtextra.AbsoluteConstraints(312, 349, 171, 50));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/How-to-Start-an-Animal-Rescue-featured-604x366.png"))); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, 660, 500));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnUserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUserActionPerformed
@@ -215,7 +212,6 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
     private javax.swing.JButton btnRoom;
     private javax.swing.JButton btnShelter;
     private javax.swing.JButton btnUser;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel lblEnter;
     private javax.swing.JLabel lblEnterprise;
     private javax.swing.JLabel lblValue;
