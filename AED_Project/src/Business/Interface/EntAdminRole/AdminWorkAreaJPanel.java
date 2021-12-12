@@ -134,8 +134,8 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(btnAnalyse, new org.netbeans.lib.awtextra.AbsoluteConstraints(312, 349, 171, 50));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/How-to-Start-an-Animal-Rescue-featured-604x366.png"))); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -40, 600, 500));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/How-to-Start-an-Animal-Rescue-featured-604x366.png"))); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, 660, 500));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnUserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUserActionPerformed
