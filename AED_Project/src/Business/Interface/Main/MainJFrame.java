@@ -120,7 +120,7 @@ public class MainJFrame extends javax.swing.JFrame {
         container.setLayout(new java.awt.CardLayout());
 
         jLabel3.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/How-to-Start-an-Animal-Rescue-featured-604x366.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/How-to-Start-an-Animal-Rescue-featured-604x366.png"))); // NOI18N
         container.add(jLabel3, "card2");
 
         splitPane1.setRightComponent(container);

@@ -143,7 +143,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/image/How-to-Start-an-Animal-Rescue-featured-604x366.png"/>
+                  <Image iconType="3" name="/Images/How-to-Start-an-Animal-Rescue-featured-604x366.png"/>
                 </Property>
               </Properties>
               <Constraints>
