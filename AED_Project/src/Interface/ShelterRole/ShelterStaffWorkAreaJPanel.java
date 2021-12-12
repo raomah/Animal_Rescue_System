@@ -71,7 +71,7 @@ public class ShelterStaffWorkAreaJPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
+        lblshelterstaffworkarea = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         tblShelter = new javax.swing.JTable();
@@ -79,11 +79,11 @@ public class ShelterStaffWorkAreaJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(255, 255, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel1.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 51, 51));
-        jLabel1.setText("SHELTER STAFF WORKAREA");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 40, -1, -1));
+        lblshelterstaffworkarea.setBackground(new java.awt.Color(255, 255, 255));
+        lblshelterstaffworkarea.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
+        lblshelterstaffworkarea.setForeground(new java.awt.Color(255, 51, 51));
+        lblshelterstaffworkarea.setText("SHELTER STAFF WORKSPACE");
+        add(lblshelterstaffworkarea, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 40, -1, -1));
 
         jPanel1.setBackground(new java.awt.Color(255, 204, 204));
 
@@ -129,9 +129,9 @@ public class ShelterStaffWorkAreaJPanel extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JLabel lblshelterstaffworkarea;
     private javax.swing.JTable tblShelter;
     // End of variables declaration//GEN-END:variables
 }
