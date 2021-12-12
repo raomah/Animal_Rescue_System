@@ -231,6 +231,7 @@ public class AnalyseAdoptionsJPanel extends javax.swing.JPanel {
 
         setBackground(new java.awt.Color(255, 255, 255));
 
+        backJButton.setForeground(new java.awt.Color(255, 51, 51));
         backJButton.setText("Previous");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
