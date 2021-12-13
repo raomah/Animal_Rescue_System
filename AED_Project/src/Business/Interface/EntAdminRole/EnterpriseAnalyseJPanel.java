@@ -18,7 +18,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author user
+ * @author Neha
  */
 public class EnterpriseAnalyseJPanel extends javax.swing.JPanel {
 
@@ -176,7 +176,6 @@ public class EnterpriseAnalyseJPanel extends javax.swing.JPanel {
         lblRatio = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         tblRatios = new javax.swing.JTable();
-        jLabel3 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -189,23 +188,25 @@ public class EnterpriseAnalyseJPanel extends javax.swing.JPanel {
         });
         add(btnPrevious, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 410, -1, 25));
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 41, 41));
         jLabel1.setText("Enterprise Level Analysis");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(152, 11, -1, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 10, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("宋体", 0, 18)); // NOI18N
         jLabel2.setText("Total Quantity Rescued:");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 60, -1, -1));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 60, -1, -1));
 
         lblTotal.setFont(new java.awt.Font("宋体", 0, 18)); // NOI18N
         lblTotal.setText("<Value>");
-        add(lblTotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 60, -1, -1));
+        add(lblTotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 60, -1, -1));
 
         lblType.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         lblType.setText("Types");
-        add(lblType, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, -1, -1));
+        add(lblType, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 110, -1, -1));
 
-        tblTypes.setFont(new java.awt.Font("Lucida Console", 0, 12)); // NOI18N
+        tblTypes.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Type", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 15), new java.awt.Color(255, 41, 41))); // NOI18N
+        tblTypes.setFont(new java.awt.Font("Arial", 0, 15)); // NOI18N
         tblTypes.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -230,7 +231,7 @@ public class EnterpriseAnalyseJPanel extends javax.swing.JPanel {
 
         lblRatio.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         lblRatio.setText("Ratios");
-        add(lblRatio, new org.netbeans.lib.awtextra.AbsoluteConstraints(66, 288, -1, -1));
+        add(lblRatio, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 290, -1, -1));
 
         tblRatios.setFont(new java.awt.Font("Lucida Sans Unicode", 0, 12)); // NOI18N
         tblRatios.setModel(new javax.swing.table.DefaultTableModel(
@@ -254,9 +255,6 @@ public class EnterpriseAnalyseJPanel extends javax.swing.JPanel {
         jScrollPane1.setViewportView(tblRatios);
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 290, 409, 85));
-
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/How-to-Start-an-Animal-Rescue-featured-604x366.png"))); // NOI18N
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 600, 440));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnPreviousActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPreviousActionPerformed
@@ -271,7 +269,6 @@ public class EnterpriseAnalyseJPanel extends javax.swing.JPanel {
     private javax.swing.JButton btnPrevious;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JLabel lblRatio;
