@@ -37,6 +37,8 @@ public class EnterpriseAnalyseJPanel extends javax.swing.JPanel {
         populateTypeTable();
         populateRatioTable();
     }
+    
+    //Public int 
 
     public int getTotalValue() {
         int sum;

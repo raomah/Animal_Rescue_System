@@ -11,7 +11,7 @@ import java.awt.CardLayout;
 
 /**
  *
- * @author Administrator
+ * @author Neha
  */
 public class AdminWorkAreaJPanel extends javax.swing.JPanel {
 
