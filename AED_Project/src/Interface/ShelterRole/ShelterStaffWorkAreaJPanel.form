@@ -16,6 +16,7 @@
     <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
     <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+
   </AuxValues>
 
   <Layout>
@@ -50,6 +51,7 @@
   </Layout>
   <SubComponents>
     <Component class="javax.swing.JLabel" name="jLabel1">
+
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -121,6 +123,7 @@
             </Property>
           </Properties>
         </Component>
+
       </SubComponents>
     </Container>
   </SubComponents>

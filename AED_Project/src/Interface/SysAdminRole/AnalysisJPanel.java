@@ -61,7 +61,9 @@ public class AnalysisJPanel extends javax.swing.JPanel {
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
+
         btnAnimals.setBackground(new java.awt.Color(255, 255, 255));
+
         btnAnimals.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         btnAnimals.setText("ANIMALS");
         btnAnimals.addActionListener(new java.awt.event.ActionListener() {
@@ -70,7 +72,9 @@ public class AnalysisJPanel extends javax.swing.JPanel {
             }
         });
 
+
         btnAdoptions.setBackground(new java.awt.Color(255, 255, 255));
+
         btnAdoptions.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
         btnAdoptions.setText(" ADOPTIONS");
         btnAdoptions.addActionListener(new java.awt.event.ActionListener() {

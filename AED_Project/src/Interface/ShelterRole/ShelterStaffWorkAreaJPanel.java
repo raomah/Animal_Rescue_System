@@ -71,11 +71,14 @@ public class ShelterStaffWorkAreaJPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+
         jLabel1 = new javax.swing.JLabel();
+
         jScrollPane1 = new javax.swing.JScrollPane();
         tblShelter = new javax.swing.JTable();
 
         setBackground(new java.awt.Color(255, 255, 255));
+
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
@@ -125,12 +128,15 @@ public class ShelterStaffWorkAreaJPanel extends javax.swing.JPanel {
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 237, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(91, Short.MAX_VALUE))
         );
+
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+
     private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
+
     private javax.swing.JTable tblShelter;
     // End of variables declaration//GEN-END:variables
 }
