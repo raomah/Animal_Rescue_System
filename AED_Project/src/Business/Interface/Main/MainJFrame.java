@@ -7,7 +7,7 @@ package Interface.Main;
 
 /**
  *
- * @author user
+ * @author Neha
  */
 import Business.EcoSystem.EcoSystem;
 import Business.Configure.ConfigureASystem;
