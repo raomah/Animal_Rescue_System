@@ -12,7 +12,7 @@ import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
 /**
  *
- * @author Administrator
+ * @author Neha
  */
 public class ManageEmployeeJPanel extends javax.swing.JPanel {
 
