@@ -78,6 +78,7 @@ public class DeliveryWorkspace extends javax.swing.JPanel {
 
         setBackground(new java.awt.Color(255, 255, 255));
 
+        DeliveryServices.setBackground(new java.awt.Color(255, 255, 255));
         DeliveryServices.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         DeliveryServices.setForeground(new java.awt.Color(255, 51, 51));
         DeliveryServices.setText("DELIVERY SERVICES");

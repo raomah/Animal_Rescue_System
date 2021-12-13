@@ -72,8 +72,8 @@ public class AdoptInspectorWorkpage extends javax.swing.JPanel {
         btnAssign = new javax.swing.JButton();
         btnMy = new javax.swing.JButton();
         btnAnalyse = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setForeground(new java.awt.Color(255, 255, 255));
@@ -136,10 +136,10 @@ public class AdoptInspectorWorkpage extends javax.swing.JPanel {
             }
         });
         add(btnAnalyse, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 290, 95, 30));
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 650, 420));
 
         jPanel1.setBackground(new java.awt.Color(255, 204, 204));
         add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 80, 630, 190));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 650, 420));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnAssignActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAssignActionPerformed

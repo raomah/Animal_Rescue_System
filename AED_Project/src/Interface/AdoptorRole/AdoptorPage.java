@@ -45,37 +45,69 @@ public class AdoptorPage extends javax.swing.JPanel {
         btnEditInfo = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(255, 255, 255));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         lblAnimal.setBackground(new java.awt.Color(255, 255, 255));
         lblAnimal.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         lblAnimal.setForeground(new java.awt.Color(255, 51, 51));
         lblAnimal.setText("ANIMAL RESCUE CENTER");
-        add(lblAnimal, new org.netbeans.lib.awtextra.AbsoluteConstraints(137, 15, -1, -1));
 
+        btnMyAdoptionlist.setBackground(new java.awt.Color(255, 255, 255));
         btnMyAdoptionlist.setText("My Adoption list");
         btnMyAdoptionlist.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMyAdoptionlistActionPerformed(evt);
             }
         });
-        add(btnMyAdoptionlist, new org.netbeans.lib.awtextra.AbsoluteConstraints(184, 152, 214, 43));
 
+        btnAdoptList.setBackground(new java.awt.Color(255, 255, 255));
         btnAdoptList.setText("Adoption details");
         btnAdoptList.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAdoptListActionPerformed(evt);
             }
         });
-        add(btnAdoptList, new org.netbeans.lib.awtextra.AbsoluteConstraints(184, 80, 214, 43));
 
+        btnEditInfo.setBackground(new java.awt.Color(255, 255, 255));
         btnEditInfo.setText("Edit Details");
         btnEditInfo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnEditInfoActionPerformed(evt);
             }
         });
-        add(btnEditInfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(184, 222, 214, 43));
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
+        this.setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(137, 137, 137)
+                        .addComponent(lblAnimal))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(184, 184, 184)
+                        .addComponent(btnAdoptList, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(184, 184, 184)
+                        .addComponent(btnMyAdoptionlist, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(184, 184, 184)
+                        .addComponent(btnEditInfo, javax.swing.GroupLayout.PREFERRED_SIZE, 214, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(139, Short.MAX_VALUE))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(15, 15, 15)
+                .addComponent(lblAnimal)
+                .addGap(36, 36, 36)
+                .addComponent(btnAdoptList, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(29, 29, 29)
+                .addComponent(btnMyAdoptionlist, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(27, 27, 27)
+                .addComponent(btnEditInfo, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(87, Short.MAX_VALUE))
+        );
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnMyAdoptionlistActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMyAdoptionlistActionPerformed

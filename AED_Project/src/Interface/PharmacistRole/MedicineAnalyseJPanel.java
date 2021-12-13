@@ -81,6 +81,9 @@ public class MedicineAnalyseJPanel extends javax.swing.JPanel {
 
         setBackground(new java.awt.Color(255, 255, 255));
 
+
+        btnBack.setBackground(new java.awt.Color(255, 255, 255));
+
         btnBack.setForeground(new java.awt.Color(255, 51, 51));
         btnBack.setText(" Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
@@ -88,6 +91,9 @@ public class MedicineAnalyseJPanel extends javax.swing.JPanel {
                 btnBackActionPerformed(evt);
             }
         });
+
+
+        lblmedicineanalysis.setBackground(new java.awt.Color(255, 255, 255));
 
         lblmedicineanalysis.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         lblmedicineanalysis.setForeground(new java.awt.Color(255, 0, 0));

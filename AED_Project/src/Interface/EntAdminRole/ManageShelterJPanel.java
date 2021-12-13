@@ -78,6 +78,7 @@ public class ManageShelterJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnDelete.setBackground(new java.awt.Color(255, 255, 255));
         btnDelete.setForeground(new java.awt.Color(255, 51, 51));
         btnDelete.setText("Delete");
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
@@ -160,6 +161,7 @@ public class ManageShelterJPanel extends javax.swing.JPanel {
                 .addContainerGap(17, Short.MAX_VALUE))
         );
 
+        btnCreate.setBackground(new java.awt.Color(255, 255, 255));
         btnCreate.setForeground(new java.awt.Color(255, 51, 51));
         btnCreate.setText("Create");
         btnCreate.addActionListener(new java.awt.event.ActionListener() {

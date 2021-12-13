@@ -115,6 +115,7 @@ public class SeeDeliverydetailspage extends javax.swing.JPanel {
             }
         });
 
+        lblDeliveryInfo.setBackground(new java.awt.Color(255, 255, 255));
         lblDeliveryInfo.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         lblDeliveryInfo.setForeground(new java.awt.Color(255, 0, 0));
         lblDeliveryInfo.setText("Delivery Information");

@@ -121,10 +121,12 @@ public class SeeOfferinginfoPage extends javax.swing.JPanel {
 
         setBackground(new java.awt.Color(255, 255, 255));
 
+        lblAnimalDetails.setBackground(new java.awt.Color(255, 255, 255));
         lblAnimalDetails.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         lblAnimalDetails.setForeground(new java.awt.Color(255, 51, 51));
         lblAnimalDetails.setText("ADOPTING ANIMAL DETAILS");
 
+        btnPrevious.setBackground(new java.awt.Color(255, 255, 255));
         btnPrevious.setForeground(new java.awt.Color(255, 51, 51));
         btnPrevious.setText("Previous");
         btnPrevious.addActionListener(new java.awt.event.ActionListener() {
@@ -249,6 +251,7 @@ public class SeeOfferinginfoPage extends javax.swing.JPanel {
                 .addContainerGap(32, Short.MAX_VALUE))
         );
 
+        btnAdoption.setBackground(new java.awt.Color(255, 255, 255));
         btnAdoption.setFont(new java.awt.Font("Arial", 0, 15)); // NOI18N
         btnAdoption.setForeground(new java.awt.Color(255, 51, 51));
         btnAdoption.setText("Adopt");

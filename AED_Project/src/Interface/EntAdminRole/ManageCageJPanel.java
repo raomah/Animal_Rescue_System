@@ -68,6 +68,7 @@ public class ManageCageJPanel extends javax.swing.JPanel {
 
         setBackground(new java.awt.Color(255, 255, 255));
 
+        btnBack.setBackground(new java.awt.Color(255, 255, 255));
         btnBack.setFont(new java.awt.Font("Arial", 0, 15)); // NOI18N
         btnBack.setForeground(new java.awt.Color(255, 51, 51));
         btnBack.setText("Previous");
@@ -77,6 +78,7 @@ public class ManageCageJPanel extends javax.swing.JPanel {
             }
         });
 
+        btnDelete.setBackground(new java.awt.Color(255, 255, 255));
         btnDelete.setFont(new java.awt.Font("Arial", 0, 15)); // NOI18N
         btnDelete.setForeground(new java.awt.Color(255, 51, 51));
         btnDelete.setText("Delete");
@@ -161,6 +163,7 @@ public class ManageCageJPanel extends javax.swing.JPanel {
                 .addContainerGap())
         );
 
+        btnCreate.setBackground(new java.awt.Color(255, 255, 255));
         btnCreate.setFont(new java.awt.Font("Arial", 0, 15)); // NOI18N
         btnCreate.setForeground(new java.awt.Color(255, 51, 0));
         btnCreate.setText("Create");

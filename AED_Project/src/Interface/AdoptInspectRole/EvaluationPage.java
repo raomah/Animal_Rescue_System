@@ -70,6 +70,7 @@ public class EvaluationPage extends javax.swing.JPanel {
 
         setBackground(new java.awt.Color(255, 255, 255));
 
+        btnPrevious.setBackground(new java.awt.Color(255, 255, 255));
         btnPrevious.setForeground(new java.awt.Color(255, 0, 51));
         btnPrevious.setText("Previous");
         btnPrevious.addActionListener(new java.awt.event.ActionListener() {
@@ -82,6 +83,7 @@ public class EvaluationPage extends javax.swing.JPanel {
         lblEvaluateApp.setForeground(new java.awt.Color(255, 51, 51));
         lblEvaluateApp.setText("APPLICANT EVALUATION");
 
+        btnSubmit.setBackground(new java.awt.Color(255, 255, 255));
         btnSubmit.setFont(new java.awt.Font("Arial", 0, 15)); // NOI18N
         btnSubmit.setForeground(new java.awt.Color(255, 51, 0));
         btnSubmit.setText("Submit");
