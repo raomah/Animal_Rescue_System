@@ -77,6 +77,7 @@ public class MyAdoptPage extends javax.swing.JPanel {
             }
         });
 
+        lblAdoptions.setBackground(new java.awt.Color(255, 255, 255));
         lblAdoptions.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         lblAdoptions.setForeground(new java.awt.Color(255, 51, 51));
         lblAdoptions.setText("MY ADOPTION DETAILS");

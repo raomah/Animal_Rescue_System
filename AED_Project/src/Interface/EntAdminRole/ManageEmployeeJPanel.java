@@ -93,6 +93,7 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
             }
         });
 
+        cboxOrganization.setBackground(new java.awt.Color(255, 255, 255));
         cboxOrganization.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cboxOrganizationActionPerformed(evt);
@@ -163,6 +164,7 @@ public class ManageEmployeeJPanel extends javax.swing.JPanel {
 
         jLabel2.setText("Name");
 
+        cboxOrganizationEmployee.setBackground(new java.awt.Color(255, 255, 255));
         cboxOrganizationEmployee.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cboxOrganizationEmployeeActionPerformed(evt);

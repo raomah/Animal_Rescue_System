@@ -121,6 +121,7 @@ public class AdoptInfoPage extends javax.swing.JPanel {
 
         setBackground(new java.awt.Color(255, 255, 255));
 
+        lblAdopterInfo.setBackground(new java.awt.Color(255, 255, 255));
         lblAdopterInfo.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         lblAdopterInfo.setForeground(new java.awt.Color(255, 51, 51));
         lblAdopterInfo.setText("ADOPTER DETAILS");
@@ -137,6 +138,16 @@ public class AdoptInfoPage extends javax.swing.JPanel {
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
+        txtCity.setFont(new java.awt.Font("Arial", 0, 15)); // NOI18N
+
+        txtPhone.setFont(new java.awt.Font("Arial", 0, 15)); // NOI18N
+
+        txtSsn.setFont(new java.awt.Font("Arial", 0, 15)); // NOI18N
+
+        txtLastN.setFont(new java.awt.Font("Arial", 0, 15)); // NOI18N
+
+        txtFirstN.setFont(new java.awt.Font("Arial", 0, 15)); // NOI18N
+
         lblEmail.setFont(new java.awt.Font("Arial", 0, 15)); // NOI18N
         lblEmail.setText("Email:");
 
@@ -149,21 +160,27 @@ public class AdoptInfoPage extends javax.swing.JPanel {
         lblSSN.setFont(new java.awt.Font("Arial", 0, 15)); // NOI18N
         lblSSN.setText("Social Security:");
 
+        txtState.setFont(new java.awt.Font("Arial", 0, 15)); // NOI18N
+
         lblLname.setFont(new java.awt.Font("Arial", 0, 15)); // NOI18N
         lblLname.setText("Last Name:");
 
         lblFname.setFont(new java.awt.Font("Arial", 0, 15)); // NOI18N
         lblFname.setText("First Name:");
 
-        jLabel11.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        txtStreet.setFont(new java.awt.Font("Arial", 0, 15)); // NOI18N
+
+        txtEmail.setFont(new java.awt.Font("Arial", 0, 15)); // NOI18N
+
+        jLabel11.setFont(new java.awt.Font("Arial", 0, 10)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(102, 102, 102));
         jLabel11.setText("State");
 
-        jLabel10.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("Arial", 0, 10)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(102, 102, 102));
         jLabel10.setText("City");
 
-        jLabel9.setFont(new java.awt.Font("Lucida Grande", 0, 10)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("Arial", 0, 10)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(102, 102, 102));
         jLabel9.setText("Street");
 
@@ -287,7 +304,7 @@ public class AdoptInfoPage extends javax.swing.JPanel {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(14, 14, 14)
                         .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(15, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -300,12 +317,12 @@ public class AdoptInfoPage extends javax.swing.JPanel {
                     .addComponent(lblAdopterInfo, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 33, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 24, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnSave, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnUpdate, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnClear))
-                .addContainerGap(13, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

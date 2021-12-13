@@ -161,6 +161,7 @@ public class CheckInspectInfo extends javax.swing.JPanel {
         lblColor.setFont(new java.awt.Font("宋体", 0, 14)); // NOI18N
         lblColor.setText("<value>");
 
+        btnEval.setBackground(new java.awt.Color(255, 255, 255));
         btnEval.setText("Evaluate");
         btnEval.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

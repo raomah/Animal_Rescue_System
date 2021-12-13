@@ -162,6 +162,7 @@ public class ManageMedicineJPanel extends javax.swing.JPanel {
         jLabel5.setFont(new java.awt.Font("宋体", 0, 14)); // NOI18N
         jLabel5.setText("Type:");
 
+        cboxType.setBackground(new java.awt.Color(255, 255, 255));
         cboxType.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cboxTypeActionPerformed(evt);
