@@ -19,7 +19,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author user
+ * @author Neha
  */
 public class ManageRoomsJPanel extends javax.swing.JPanel {
 

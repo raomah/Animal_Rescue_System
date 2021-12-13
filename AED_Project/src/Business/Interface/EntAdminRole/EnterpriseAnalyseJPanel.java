@@ -46,6 +46,7 @@ public class EnterpriseAnalyseJPanel extends javax.swing.JPanel {
         return sum;
     }
     
+    
     public void populateTypeTable() {
         DefaultTableModel model = (DefaultTableModel) tblTypes.getModel();
         model.setRowCount(0);
