@@ -252,6 +252,7 @@ public class RegisterAnimalPanel extends javax.swing.JPanel {
             enterprise.getAnimalDirectory().addAnimal(a);
             r.setRescuedanimal(a);
         }
+        //else
         else if(cboxType.getSelectedItem() == AnimalDetails.AnimalType.Other) {
             a = new OtherAnimalDetails();
             a.setAnimalcolor(txtColor.getText());
