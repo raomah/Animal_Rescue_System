@@ -21,7 +21,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author user
+ * @author Neha
  */
 public class ReceptionistPanel extends javax.swing.JPanel {
 
