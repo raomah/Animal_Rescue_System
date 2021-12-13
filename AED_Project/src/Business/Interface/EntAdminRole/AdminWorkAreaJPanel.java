@@ -202,7 +202,7 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
         layout.next(userProcessContainer);
     }//GEN-LAST:event_btnAnalyseActionPerformed
 
-
+//Public int 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAnalyse;
     private javax.swing.JButton btnCage;
