@@ -7,28 +7,24 @@ package Business.Role;
 
 import Business.EcoSystem.EcoSystem;
 import Business.Enterprises.EnterpriseDetails;
-import Business.Organisation.AdoptionOrganisation;
 import Business.Organisation.OrganisationMain;
 import Business.UserAccount.UserAccountDetails;
-import Interface.AdoptInspectRole.AdoptInspectorWorkpage;
+import Interface.SysAdminRole.SystemAdminWorkAreaJPanel;
 import javax.swing.JPanel;
 
 /**
  *
  * @author krishna
  */
-public class AdoptionManagerRole extends AllRoles
+public class SystemAdministratorRole extends AllRoles 
 {
-     @Override
-     
+    @Override
+    
     public JPanel createWorkArea(JPanel container, 
             EnterpriseDetails enterprise, 
             OrganisationMain organization, 
             UserAccountDetails userAccount, 
-            EcoSystem business) 
-    {
-        
-        return new AdoptInspectorWorkpage(container, enterprise, (AdoptionOrganisation)organization, userAccount, business);
-        
+            EcoSystem business) {
+        return new SystemAdminWorkAreaJPanel(container, business);
     }
 }

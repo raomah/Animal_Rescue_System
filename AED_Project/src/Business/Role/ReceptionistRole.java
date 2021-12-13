@@ -7,17 +7,18 @@ package Business.Role;
 
 import Business.EcoSystem.EcoSystem;
 import Business.Enterprises.EnterpriseDetails;
-import Business.Organisation.AdoptionOrganisation;
+import Business.Enterprises.RescueCenterEntDetails;
+import Business.Organisation.CenterRegistrationOrganisation;
 import Business.Organisation.OrganisationMain;
 import Business.UserAccount.UserAccountDetails;
-import Interface.AdoptInspectRole.AdoptInspectorWorkpage;
+import Interface.ReceptionistRole.ReceptionistWorkAreaJPanel;
 import javax.swing.JPanel;
 
 /**
  *
  * @author krishna
  */
-public class AdoptionManagerRole extends AllRoles
+public class ReceptionistRole extends AllRoles
 {
      @Override
      
@@ -27,8 +28,6 @@ public class AdoptionManagerRole extends AllRoles
             UserAccountDetails userAccount, 
             EcoSystem business) 
     {
-        
-        return new AdoptInspectorWorkpage(container, enterprise, (AdoptionOrganisation)organization, userAccount, business);
-        
+        return new ReceptionistWorkAreaJPanel(container, (RescueCenterEntDetails)enterprise, (CenterRegistrationOrganisation)organization, userAccount);
     }
 }
