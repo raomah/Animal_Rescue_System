@@ -51,8 +51,6 @@ public class MainJFrame extends javax.swing.JFrame {
         btnLogout = new javax.swing.JButton();
         txtPassword = new javax.swing.JPasswordField();
         container = new javax.swing.JPanel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -120,31 +118,20 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addComponent(btnLogin)
                 .addGap(18, 18, 18)
                 .addComponent(btnLogout)
-                .addContainerGap(236, Short.MAX_VALUE))
+                .addContainerGap(276, Short.MAX_VALUE))
         );
 
         splitPane1.setLeftComponent(signIn);
 
         container.setBackground(new java.awt.Color(255, 255, 255));
-        container.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/programe-header-bg.jpeg"))); // NOI18N
-        jLabel3.setText("jLabel3");
-        container.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(-290, 110, 1000, -1));
-
-        jLabel4.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel4.setFont(new java.awt.Font("Phosphate", 2, 48)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 51, 51));
-        jLabel4.setText("ANIMAL RESCUE SYSTEM");
-        container.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 0, 490, 100));
-
+        container.setLayout(new java.awt.CardLayout());
         splitPane1.setRightComponent(container);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(splitPane1)
+            .addComponent(splitPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 810, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -269,6 +256,7 @@ public class MainJFrame extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(MainJFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
+        //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -284,8 +272,6 @@ public class MainJFrame extends javax.swing.JFrame {
     private javax.swing.JPanel container;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel signIn;
     private javax.swing.JSplitPane splitPane1;
     private javax.swing.JPasswordField txtPassword;
