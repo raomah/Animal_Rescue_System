@@ -25,7 +25,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author user
+ * @author Neha
  */
 public class RegisterAnimalPanel extends javax.swing.JPanel {
 
