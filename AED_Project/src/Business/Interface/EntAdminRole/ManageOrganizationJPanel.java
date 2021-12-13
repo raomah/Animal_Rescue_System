@@ -164,6 +164,7 @@ public class ManageOrganizationJPanel extends javax.swing.JPanel {
         populateTable();
     }//GEN-LAST:event_btnAddActionPerformed
 
+    //Private int btn
     private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
 
         userProcessContainer.remove(this);
